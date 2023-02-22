@@ -89,9 +89,9 @@ figcaption {
 section.imagem p {
     color: white;
     font-weight: 600;
-    font-size: 2em;
+    font-size: 2.5vw;
     line-height: 1.7em;
-    margin: 200px 70px;
+    margin: 100px 70px;
     padding: 30px;
     background-color: rgba(0, 0, 0, 0.658);
     display: inline-block;
