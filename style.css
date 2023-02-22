@@ -31,19 +31,30 @@ header #escudo-flamengo {
 }
 
 header h1 {
-    font-size: 5em;
+    font-size: 7vw;
     padding-right: 10px;
-    padding-left: 100px;
+    padding-left: 10px;
 }
 
 nav {
-    background-color: var(--escuro);
-    padding: 8px;
+    background-color: black;
+    padding: 10px 0px;
 }
 
 nav a {
-    padding: 40px;
     color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 10px 15px;
+    transition-duration: 0.4s;
+}
+
+nav a:hover {
+    background-color: var(--vermelhoClaro);
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
 }
 
 section > h2 {
@@ -92,6 +103,11 @@ aside#audio {
 
 aside#audio audio {
     width: 100%;
+}
+
+div#table-container {
+    overflow-x: auto;
+    padding: 25px;
 }
 
 table {
@@ -177,6 +193,7 @@ aside#video {
     padding-bottom: 56.25%;
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 aside#video iframe {
@@ -219,19 +236,36 @@ footer div#social a {
 }
 
 footer div#social a:hover {
-    text-decoration: none;
+    text-decoration: underline;
     color: var(--vermelhoEscudo);
     font-weight: 600;
+}
+
+footer div#social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div#foto > img {
+    width: 120px;
+    padding: 10px;
+}
+
+footer div#redes > a {
+    line-height: 30px;
+    display: flex;
+    padding: 5px;
 }
 
 footer div#creditos {
     background-color: var(--vermelhoEscudo);
     margin: 0px;
-    padding: 0px;
+    padding-bottom: 10px;
 }
 
 footer div#creditos p {
-    line-height: 5px;
+    padding: 3px;
 }
 
 footer div#creditos h3 {
@@ -239,15 +273,4 @@ footer div#creditos h3 {
     padding-top: 15px;
     font-size: 1.6em;
     text-align: center;
-}
-
-footer div#social {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-footer div#social > img {
-    width: 120px;
-    padding: 10px;
 }
