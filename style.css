@@ -78,7 +78,7 @@ section.imagem {
     background-image: url(imagens/gabigol-olhando-pra-cima.jpg);
     background-position: center center;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
 }
 
 figcaption {
@@ -89,7 +89,7 @@ figcaption {
 section.imagem p {
     color: white;
     font-weight: 600;
-    font-size: 2.5vw;
+    font-size: 2.8vw;
     line-height: 1.7em;
     margin: 100px 70px;
     padding: 30px;
