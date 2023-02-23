@@ -34,11 +34,13 @@ header h1 {
     font-size: 7vw;
     padding-right: 10px;
     padding-left: 10px;
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.397);
 }
 
 nav {
     background-color: black;
     padding: 10px 0px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.397);
 }
 
 nav a {
@@ -79,6 +81,7 @@ section.imagem {
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
+    box-shadow: inset 1px 30px 30px rgba(0, 0, 0, 0.397);
 }
 
 figcaption {
@@ -113,6 +116,7 @@ div#table-container {
 table {
     margin: auto;
     border-collapse: collapse;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.295);
 }
 
 table caption {
@@ -194,6 +198,7 @@ aside#video {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.295);
 }
 
 aside#video iframe {
